@@ -1,0 +1,90 @@
+# NexT Theme Configuration
+# Scheme: Gemini (简洁)
+scheme: Gemini
+
+# Dark Mode
+darkmode: true
+
+# Site Information
+favicon:
+  small: /images/favicon-16x16-next.png
+  medium: /images/favicon-32x32-next.png
+  apple_touch_icon: /images/apple-touch-icon-next.png
+  safari_pinned_tab: /images/logo.svg
+
+creative_commons:
+  license: by-nc-sa
+  sidebar: false
+  post: false
+
+# Menu
+menu:
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+
+# Sidebar
+sidebar:
+  position: left
+  display: post
+
+avatar:
+  url: #/images/avatar.png
+  rounded: true
+
+social:
+  GitHub: https://github.com/DUcotd || fab fa-github
+
+# Local Search
+local_search:
+  enable: true
+  top_n_per_article: 1
+  unescape: false
+  preload: false
+
+# Code Highlight
+codeblock:
+  copy_button:
+    enable: true
+    show_result: true
+    style: flat
+
+# Footer
+footer:
+  since: 2025
+  icon:
+    name: fa fa-heart
+    animated: true
+    color: "#ff0000"
+
+# Back to top
+back2top:
+  enable: true
+  sidebar: false
+  scrollpercent: true
+
+# Reading progress
+reading_progress:
+  enable: true
+  position: top
+  color: "#37c6c0"
+
+# Post settings
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at:
+    enable: true
+    another_day: true
+
+# Comments (disabled)
+comments:
+  active: false
+
+# TOC
+toc:
+  enable: true
+  number: true
+  wrap: true
+  max_depth: 6
