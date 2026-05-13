@@ -104,3 +104,4 @@ deploy:
   type: git
   repo: git@github.com:DUcotd/DUcotd.github.io.git
   branch: main
+  ignore_hidden: false
